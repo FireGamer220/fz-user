@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="fz.firedev.de.freizeitzocker.MainActivity">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <android.support.v7.widget.CardView
+                android:backgroundTint="#73ff60"
+                android:id="@+id/ts3"
+                android:layout_width="match_parent"
+                android:layout_height="200dp">
+
+                <ImageView
+                    android:layout_marginTop="-20dp"
+                    android:layout_gravity="center"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/ic_ts3"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="TS3 View"
+                    android:textColor="#000"
+                    android:textAlignment="center"
+                    android:textSize="20dp"
+                    android:layout_gravity="bottom"
+                    android:layout_marginBottom="25dp"/>
+
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                android:backgroundTint="#474aff"
+                android:id="@+id/ticket"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_below="@id/ts3">
+
+                <ImageView
+                    android:layout_marginTop="-20dp"
+                    android:layout_gravity="center"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/ic_ticket"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Ticket System"
+                    android:textColor="#000"
+                    android:textAlignment="center"
+                    android:textSize="20dp"
+                    android:layout_gravity="bottom"
+                    android:layout_marginBottom="25dp"/>
+
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                android:backgroundTint="#ff6060"
+                android:id="@+id/livemap"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_alignParentRight="true"
+                android:layout_below="@id/ticket">
+
+                <ImageView
+                    android:layout_marginTop="-20dp"
+                    android:layout_gravity="center"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/ic_livemap"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Live Map"
+                    android:textColor="#000"
+                    android:textAlignment="center"
+                    android:textSize="20dp"
+                    android:layout_gravity="bottom"
+                    android:layout_marginBottom="25dp"/>
+
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                android:id="@+id/teamliste"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@id/livemap">
+
+                <ImageView
+                    android:layout_marginTop="-20dp"
+                    android:layout_gravity="center"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/ic_team"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Teamliste"
+                    android:textColor="#000"
+                    android:textAlignment="center"
+                    android:textSize="20dp"
+                    android:layout_gravity="bottom"
+                    android:layout_marginBottom="25dp"/>
+
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                android:backgroundTint="#fff957"
+                android:id="@+id/serverstatus"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@id/teamliste">
+
+                <ImageView
+                    android:layout_marginTop="-20dp"
+                    android:layout_gravity="center"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/ic_serverstatus"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Server Status"
+                    android:textColor="#000"
+                    android:textAlignment="center"
+                    android:textSize="20dp"
+                    android:layout_gravity="bottom"
+                    android:layout_marginBottom="25dp"/>
+
+            </android.support.v7.widget.CardView>
+
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

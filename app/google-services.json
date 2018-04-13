@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "95188423065",
+    "firebase_url": "https://fz-ti-f2f24.firebaseio.com",
+    "project_id": "fz-ti-f2f24",
+    "storage_bucket": "fz-ti-f2f24.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:95188423065:android:cd2c506be6b7fe45",
+        "android_client_info": {
+          "package_name": "fz.firedev.de.freizeitzocker"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "95188423065-h6o3364bljse57mobab48vq56rcj3mc9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "fz.firedev.de.freizeitzocker",
+            "certificate_hash": "3f863ffc370902c3efd46c00a296e717765d10cb"
+          }
+        },
+        {
+          "client_id": "95188423065-n4514obvfqabr06tp5db4s4sltun1u6u.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB8aHrnhDDqgl28LVKMU54up_K3JbjLiLI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "95188423065-n4514obvfqabr06tp5db4s4sltun1u6u.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
